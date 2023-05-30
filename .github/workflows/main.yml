@@ -20,18 +20,14 @@ jobs:
     - uses: actions/checkout@v2
     - name: Setup ENV
       run: |
-        pwd
         touch .env
         echo "${{ secrets.ENV_PRODUCTION }}" > .env
-        cat .env
     - name: Install Composer Dependencies
       run: composer install --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
     - name: Install NPM Dependencies
       run: npm install
     - name: Build Site
       run: npm run prod
-    - name: List
-      run: ls build_production
     - name: Stage Files
       run: git add -f build_production
     - name: Commit files
