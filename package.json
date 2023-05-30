@@ -6,13 +6,16 @@
         "prod": "mix --production"
     },
     "devDependencies": {
-        "docsearch.js": "^2.6.3",
-        "highlight.js": "^10.5.0",
         "laravel-mix": "^6.0.39",
         "laravel-mix-jigsaw": "^1.5.0",
         "postcss": "^8.2.4",
         "sass": "^1.32.5",
-        "sass-loader": "^10.1.1",
-        "tailwindcss": "^1.9.6"
+        "sass-loader": "^10.1.1"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.4.0",
+        "bootstrap": "^4.6.0",
+        "jquery": "^2.0",
+        "object-fit-images": "^3.2.4"
     }
 }

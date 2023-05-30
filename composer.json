@@ -2,7 +2,8 @@
     "require": {
         "tightenco/jigsaw": "^1.6",
         "tightenco/jigsaw-docs-template": "^1.1",
-        "samdark/sitemap": "^2.2.1"
+        "samdark/sitemap": "^2.2.1",
+        "laravel/helpers": "^1.6"
     },
     "autoload": {
         "psr-4": {
