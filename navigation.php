@@ -11,10 +11,7 @@ return [
     'Our Programs' => [
         'url' => 'programs',
         'children' => [
-            'Customizing Your Site' => 'docs/customizing-your-site',
-            'Navigation' => 'docs/navigation',
-            'Algolia DocSearch' => 'docs/algolia-docsearch',
-            'Custom 404 Page' => 'docs/custom-404-page',
+            'Equipping Individuals' => 'programs/equipping-individuals',
         ],
     ],
     'News' => 'news',
@@ -30,17 +27,13 @@ return [
     'Find Help' => [
         'url' => 'resources',
         'children' => [
-            'Research, Policies & Reports' => 'resources/research-policies-reports',
-            'Webinars' => 'resources/webinars',
-            'Podcasts' => 'resources/podcasts',
+            'Get screened' => 'resources/research-policies-reports',
         ],
     ],
     'Get Involved' => [
         'url' => 'resources',
         'children' => [
-            'Research, Policies & Reports' => 'resources/research-policies-reports',
-            'Webinars' => 'resources/webinars',
-            'Podcasts' => 'resources/podcasts',
+            'Donate' => 'resources/research-policies-reports',
         ],
     ],
 ];
