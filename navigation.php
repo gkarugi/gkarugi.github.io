@@ -9,9 +9,16 @@ return [
         ],
     ],
     'Our Programs' => [
-        'url' => 'programs',
+        'url' => 'programs/about-our-programs',
         'children' => [
             'Equipping Individuals' => 'programs/equipping-individuals',
+            'Strengthening schools' => 'programs/about-our-programs#strengthening-schools',
+            'Strengthening workplaces' => 'programs/about-our-programs#strengthening-workplaces',
+            'Mobilizing communities' => 'programs/about-our-programs#mobilizing-communities',
+            'Training programs' => 'programs/about-our-programs#training-programs',
+            'Inequality and suicide' => 'programs/about-our-programs#inequality-and-suicide',
+            'Internet and suicide' => 'programs/internet-and-suicide',
+            'Young people and suicide' => 'programs/about-our-programs#young-people-and-suicide',
         ],
     ],
     'News' => 'news',
