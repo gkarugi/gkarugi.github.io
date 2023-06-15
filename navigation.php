@@ -28,8 +28,8 @@ return [
         'url' => 'resources',
         'children' => [
             'Research, Policies & Reports' => 'resources/research-policies-reports',
-            'Webinars' => 'resources/webinars',
-            'Podcasts' => 'resources/podcasts',
+//            'Webinars' => 'resources/webinars',
+//            'Podcasts' => 'resources/podcasts',
         ],
     ],
     'Find Help' => [

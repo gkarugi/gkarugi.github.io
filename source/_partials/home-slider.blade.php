@@ -15,8 +15,8 @@
                                     <h2 class="promo-slider__title"><span>Are you in</span><br/><span>crisis?.</span></h2>
                                 </div>
                                 <div class="promo-slider__wrapper-2 ">
-                                    <p class="promo-slider__subtitle pt-2" style="font-size: 24px;">If you are in crisis, please call the <a href="tel+254 703 388 130">+254 703 388 130</a>
-                                        <br> or <br> text <strong class="text-white">TALK</strong> to +254 703 388 130 </p>
+                                    <p class="promo-slider__subtitle pt-2" style="font-size: 24px;">If you are in crisis, please call the <a href="tel:+254 703 388 130">+254 703 388 130</a>
+                                        <br> or <br> text <strong class="text-white">TALK</strong> to <a href="tel:+254 703 388 130">+254 703 388 130</a> </p>
                                 </div>
                                 <div class="promo-slider__wrapper-3"><a class="button promo-slider__button button--primary" href="/find-help">Get help</a></div>
                             </div>
