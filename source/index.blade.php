@@ -1,6 +1,9 @@
 @extends('_layouts.master')
 
 @section('body')
+
+    @include('_partials.home-slider')
+
     <!-- about us start-->
     <section class="section about-us background--brown">
         <div class="container">
