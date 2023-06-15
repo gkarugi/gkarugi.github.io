@@ -36,7 +36,14 @@
     @include('_partials.nav', ['items' => $page->navigation])
     <main class="main">
         @yield('body')
-    </main>
+    </main>`
+    <div class="bg-white py-3 d-relative">
+        <div class="d-flex justify-content-center align-items-center pb-3">
+            <i class="d-block fa fa-phone-square mr-4" style="font-size: 36px"></i>
+            <p class="font-weight-bold" style="flex: inherit; margin: 0 20px 0 0; font-size: 20px;">Need support? Call <a href="tel:+254 703 388 130">+254 703 388 130</a> to speak to CSRI or</p>
+            <a href="#" class="button button--filled ml-1">See other ways to talk to us</a>
+        </div>
+    </div>
     @include('_partials.footer')
 </div>
 

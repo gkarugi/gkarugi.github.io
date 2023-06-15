@@ -102,4 +102,14 @@ return [
             })
             ->first();
     },
+    'getLatestPosts' => function ($page) use ($apiUrl, $context) {
+        $posts = json_decode(file_get_contents("$apiUrl/content/items/blog", false, $context), true);
+
+        return collect($posts)->map(function ($post) use ($page) {
+                $post['image']['path'] = $page->getAssetUrl($post['image']['path'] ?? null);
+                $post['title_slug'] = str_slug($post['title']);
+
+                return $post;
+            });
+    },
 ];

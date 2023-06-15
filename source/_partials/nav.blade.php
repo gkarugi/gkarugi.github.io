@@ -27,8 +27,8 @@
                 <li class="aside-menu__item"><a class="aside-menu__link" href="#">Contacts</a></li>
             </ul>
             <!-- aside menu end-->
-            <div class="aside-inner"><span class="aside-inner__title">Email</span><a class="aside-inner__link" href="mailto:support@helpo.org">support@helpo.org</a></div>
-            <div class="aside-inner"><span class="aside-inner__title">Phone numbers</span><a class="aside-inner__link" href="tel:+180012345678">+ 1800 - 123 456 78</a><a class="aside-inner__link" href="tel:+18009756511">+ 1800 - 975 65 11</a></div>
+            <div class="aside-inner"><span class="aside-inner__title">Email</span><a class="aside-inner__link" href="mailto:support@csricentre.org">support@csricentre.org</a></div>
+            <div class="aside-inner"><span class="aside-inner__title">Phone numbers</span><a class="aside-inner__link" href="tel:+254703388130">+254 703 388 130</a><a class="aside-inner__link" href="tel:+254 703 388 130">+254 703 388 130</a></div>
             <ul class="aside-socials">
                 <li class="aside-socials__item"><a class="aside-socials__link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                 <li class="aside-socials__item"><a class="aside-socials__link" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
@@ -45,7 +45,11 @@
 <div class="top-bar d-none d-lg-block">
     <div class="container-fluid">
         <div class="row align-items-end">
-            <div class="col-lg-9"><a class="top-bar__link" href="tel:+180012345678">+ 1800 - 123 456 78</a><a class="top-bar__link" href="tel:+18009756511">+ 1800 - 975 65 11</a><a class="top-bar__link" href="mailto:support@helpo.org">support@helpo.org</a></div>
+            <div class="col-lg-9">
+                <a class="top-bar__link" href="tel:+254 703 388 130">+254 703 388 130</a>
+                <a class="top-bar__link" href="tel:+254 703 388 130">+254 703 388 130</a>
+                <a class="top-bar__link" href="mailto:support@csricentre.org">support@csricentre.org</a>
+            </div>
             <div class="col-lg-3 text-right">
                 <ul class="socials">
                     <li class="socials__item"><a class="socials__link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
